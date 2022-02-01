@@ -33,3 +33,16 @@ h2:hover {
 #img-container {
     text-align: center;
 }
+
+main p {
+    padding: 10px 100px;
+    line-height: 1.5em;
+}
+
+footer p{
+    padding-left: 60px;
+}
+
+p{
+    font-size: 1.3em;
+}
