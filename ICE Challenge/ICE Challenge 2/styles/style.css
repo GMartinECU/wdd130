@@ -1,0 +1,23 @@
+header img{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: gray;
+}
+main{
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.images img{
+    width: 25%;
+    margin: 45px;
+    border-radius: 50%;
+    border: 15px solid rgb(88, 88, 88);
+}
+
+.images{
+    text-align: center;
+    padding: 50px;
+}
