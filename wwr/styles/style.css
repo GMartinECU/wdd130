@@ -102,7 +102,7 @@ header{
     height: 100%;
     max-width: 150%;
     overflow: hidden;
-    box-shadow: 5px 5px 10px #161a17;
+    box-shadow: 5px 5px 10px;
 }
 .msg{
     grid-column: 6/10;
