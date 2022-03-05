@@ -133,6 +133,42 @@ ul{
     padding: 5%;
 }
 
+.rafting_images{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin: 2.5%;
+    justify-content: center;
+}
+.rafting_rapids{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.rafting_rapids:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.rafting_rapids img{
+    height: 100%;
+}
+
+.calm_rafting{
+    width: 35%;
+    min-width: 600px;
+}
+
+.informational_image p{
+    margin: 2.5% 5%;
+    font-size: 18pt;
+}
+.informational_image h3{
+    margin: 2.5%;
+    font-size: 36pt;
+}
+
 @media only screen and (max-width: 600px) {
 
     .cards {

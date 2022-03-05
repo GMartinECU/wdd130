@@ -21,3 +21,7 @@ a:hover{
     color: white;
     background-color: gray;
 }
+
+nav{
+    display: flex;
+}
