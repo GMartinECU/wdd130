@@ -83,6 +83,12 @@
     margin-top: 3em;
 }
 
+#inputs{
+    display: block;
+}
+
+
+
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -107,7 +113,7 @@
 <main class="home-grid">
     <div id="feedback"></div>
     <form action="/my-handling-form-page" method="post">
-        <ul>
+        <ul id = "inputs">
             <li>
               <label for="name">Name:</label>
               <input type="text" id="name" name="user_name">
