@@ -61,29 +61,31 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
-    row-gap: 10px;
+    row-gap: 20px;
 }
 
 #wool{
-    grid-template-columns: 1/2;
+    grid-column: 1/2;
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
 }
 
 #wool_paragraph{
-    grid-template-columns: 2/3;
+    grid-column: 2/3;
     text-align: left;
+    font-size: x-large;
 }
 
 #emerald{
-    grid-template-columns: 1/2;
+    grid-column: 1/2;
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
 }
 
 #emerald_paragraph{
-    grid-template-columns: 2/3;
+    grid-column: 2/3;
     text-align: left;
+    font-size: x-large;
 }
 
 
