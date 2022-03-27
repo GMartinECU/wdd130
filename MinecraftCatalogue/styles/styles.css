@@ -10,6 +10,10 @@ header{
     font-size: x-large;
 }
 
+.logo{
+    margin: 5%;
+}
+
 nav{
     grid-column: 2/3;
 }
@@ -52,6 +56,39 @@ h1{
     text-align: center;
     margin: 5% 0%;
 }
+
+.page-2-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    row-gap: 10px;
+}
+
+#wool{
+    grid-template-columns: 1/2;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#wool_paragraph{
+    grid-template-columns: 2/3;
+    text-align: left;
+}
+
+#emerald{
+    grid-template-columns: 1/2;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#emerald_paragraph{
+    grid-template-columns: 2/3;
+    text-align: left;
+}
+
+
+
+
 
 .social{
     margin: 1.2%;
