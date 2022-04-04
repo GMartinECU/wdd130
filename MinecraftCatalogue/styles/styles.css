@@ -57,39 +57,41 @@ h1{
     margin: 5% 0%;
 }
 
-.page-2-images{
+/* new page */
+
+.page-2-images, .page-3-images{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     row-gap: 20px;
 }
 
-#wool{
+#wool, #wheat_farm{
     grid-column: 1/2;
     margin: 0 auto;
     width: 50%;
 }
 
-#wool_paragraph{
+#wool_paragraph, #large_farm_paragraph{
     grid-column: 2/3;
     text-align: left;
     font-size: x-large;
 }
 
-#emerald{
+#emerald, #mob_farm{
     grid-column: 1/2;
     margin: 0 auto;
     width: 50%;
 }
 
-#emerald_paragraph{
+#emerald_paragraph, #mob_farm_paragraph{
     grid-column: 2/3;
     text-align: left;
     font-size: x-large;
 }
 
 
-
+/* new page */
 
 
 .social{
